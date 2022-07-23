@@ -13,9 +13,9 @@ public class ConnectionUtil {
   static {
     HikariConfig config = new HikariConfig();
     config.setDriverClassName("com.mysql.cj.jdbc.Driver");
-    config.setJdbcUrl("jdbc:mysql://localhost:3306/belajar_java_database");
+    config.setJdbcUrl("jdbc:mysql://localhost:3306/java_database");
     config.setUsername("root");
-    config.setPassword("");
+    config.setPassword("12345678");
 
     config.setMaximumPoolSize(10);
     config.setMinimumIdle(5);

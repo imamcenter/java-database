@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 /**
  * testCreateStatement
  */
-public class testCreateStatement {
+public class CreateStatementTest {
 
   @Test
   void testCreateStatement() throws SQLException {
@@ -28,7 +28,7 @@ public class testCreateStatement {
 
     String sql = """
         INSERT INTO customers(id, name, email)
-        VALUES("imam", "Imam", "imam@mail.com")
+        VALUES("ihab", "Ihab", "ihab@mail.com")
         """;
 
     int update = statement.executeUpdate(sql);

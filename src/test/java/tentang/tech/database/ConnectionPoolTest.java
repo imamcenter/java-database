@@ -9,7 +9,7 @@ import com.zaxxer.hikari.HikariDataSource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestConnectionPool {
+public class ConnectionPoolTest {
   @Test
   void testHikariCp() {
     HikariConfig config = new HikariConfig();
